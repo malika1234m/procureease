@@ -1,0 +1,65 @@
+# ── Dependencies ──────────────────────────────
+node_modules/
+*/node_modules/
+
+# ── Build output ──────────────────────────────
+dist/
+build/
+*.tsbuildinfo
+
+# ── Environment files (never commit secrets) ──
+.env
+.env.local
+.env.production
+.env.staging
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# ── Logs ──────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ── OS generated ──────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── Editor / IDE ──────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.history/
+
+# ── Docker volumes ────────────────────────────
+postgres_data/
+
+# ── Default Vite placeholder assets ───────────
+frontend/src/assets/react.svg
+frontend/src/assets/vite.svg
+frontend/src/assets/hero.png
+
+# ── Duplicate README (root README is canonical) ──
+frontend/README.md
+
+# ── Test / coverage ───────────────────────────
+coverage/
+.nyc_output/
+*.lcov
+
+# ── Misc ──────────────────────────────────────
+*.pem
+*.key
+*.cert
