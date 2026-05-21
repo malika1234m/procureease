@@ -2,7 +2,6 @@
 
 > A full-stack Enterprise Resource Planning system built for Sri Lankan SMEs — managing procurement, inventory, HR, payroll, and finance from a single platform.
 
-
 ---
 
 ## Overview
